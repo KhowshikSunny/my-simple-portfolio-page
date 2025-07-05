@@ -1,34 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Righteous&family=Roboto:wght@100&family=Tilt+Prism&family=Yellowtail&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     padding-top: 10px;
     background-color: black;
     color: white;
 }
-.header-section{
+
+.header-section {
     width: 80%;
     margin: auto;
 }
+
 .header-section h3 {
     width: 35%;
     position: absolute;
     padding: 8px;
     font-family: 'Tilt Prism', cursive;
 }
+
 .header-section ul {
     width: 60%;
     float: right;
     position: relative;
     text-align: right;
 }
+
 .header-section ul li {
     display: inline-block;
     padding: 8px;
 }
-.header-section ul li a{
+
+.header-section ul li a {
     text-decoration: none;
     color: white;
     padding: 8px;
@@ -36,23 +43,27 @@ body{
     transition: 0.8s;
     font-family: 'Roboto', sans-serif;
 }
-.header-section ul li a:hover{
+
+.header-section ul li a:hover {
     color: yellow;
     transition: 0.8s;
     border-bottom: 2px solid #fdbd3a;
-    
+
 }
-.banner-section{
+
+.banner-section {
     width: 100%;
 
 }
+
 .text-area {
     width: 36%;
-    
+
     float: left;
     margin-top: 112px;
     margin-left: 151px;
 }
+
 .text-area p {
     color: #fdbd3a;
     font-family: 'Roboto', sans-serif;
@@ -60,13 +71,15 @@ body{
     font-size: 24px;
     margin-bottom: 50px;
 }
-.text-area h1{
+
+.text-area h1 {
     font-family: 'Righteous', cursive;
     text-transform: uppercase;
     font-size: 48px;
     color: #fdbd3a;
 }
-.text-area .span1{
+
+.text-area .span1 {
     color: #fff;
 }
 
@@ -74,6 +87,7 @@ body{
     color: #fdbd3a;
     margin-left: 80px;
 }
+
 .text-area h3 {
     text-transform: capitalize;
     font-size: 33px;
@@ -82,24 +96,35 @@ body{
     font-family: 'Roboto', sans-serif;
     word-spacing: 5px;
 }
+
 .button-section {
     color: white;
     padding: 20px;
     margin-top: 32px;
 }
+
 .button-section a {
     margin-left: 51px;
     padding: 11px;
-    border-radius: 34px;
+    border-radius: 0px 18px 0px 18px;
     text-decoration: none;
     background-color: #fdbd3a;
     color: black;
+
 }
 
-.img-section{
+.button-section a:hover {
+    background-color: #1000ee;
+    color: rgb(255, 255, 255);
+    transition: 1.5s;
+    border: 1px solid #ffffff;
+}
+
+.img-section {
     width: 48%;
     float: right;
 }
+
 .img-section img {
     margin-top: -20px;
     float: right;
