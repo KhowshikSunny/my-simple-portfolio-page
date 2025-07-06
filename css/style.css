@@ -42,6 +42,7 @@ body {
     z-index: 1;
     transition: 0.8s;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold
 }
 
 .header-section ul li a:hover {
