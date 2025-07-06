@@ -28,6 +28,7 @@ body {
     float: right;
     position: relative;
     text-align: right;
+    font-weight: bolder;
 }
 
 .header-section ul li {
