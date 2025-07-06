@@ -103,6 +103,7 @@ body {
     color: white;
     padding: 20px;
     margin-top: 32px;
+    
 }
 
 .button-section a {
@@ -119,7 +120,7 @@ body {
     background-color: #1000ee;
     color: rgb(255, 255, 255);
     transition: 1.5s;
-    border: 1px solid #ffffff;
+    border: 3px solid #ffffff;
 }
 
 .img-section {
